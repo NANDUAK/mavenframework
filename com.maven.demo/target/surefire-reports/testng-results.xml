@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[password enteredbom1234]]>
+    </line>
+    <line>
+      <![CDATA[click login]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="85175" started-at="2021-09-23T10:16:26Z" finished-at="2021-09-23T10:17:51Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="85175" started-at="2021-09-23T10:16:26Z" finished-at="2021-09-23T10:17:51Z">
+      <class name="maven.demo.Stock_demo">
+        <test-method status="PASS" signature="f()[pri:0, instance:maven.demo.Stock_demo@7c16905e]" name="f" duration-ms="85090" started-at="2021-09-23T10:16:26Z" finished-at="2021-09-23T10:17:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[password enteredbom1234]]>
+            </line>
+            <line>
+              <![CDATA[click login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- maven.demo.Stock_demo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
