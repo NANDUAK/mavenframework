@@ -5,7 +5,7 @@
     <classes>
       <class name="maven.demo.Stock_demo">
         <methods>
-          <include name="f10"/>
+          <include name="f9"/>
         </methods>
       </class> <!-- maven.demo.Stock_demo -->
     </classes>
