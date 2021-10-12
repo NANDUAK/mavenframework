@@ -8,12 +8,12 @@
       <![CDATA[click login]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="85175" started-at="2021-09-23T10:16:26Z" finished-at="2021-09-23T10:17:51Z">
+  <suite name="Suite" duration-ms="55626" started-at="2021-10-11T10:43:50Z" finished-at="2021-10-11T10:44:46Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="85175" started-at="2021-09-23T10:16:26Z" finished-at="2021-09-23T10:17:51Z">
+    <test name="Test" duration-ms="55626" started-at="2021-10-11T10:43:50Z" finished-at="2021-10-11T10:44:46Z">
       <class name="maven.demo.Stock_demo">
-        <test-method status="PASS" signature="f()[pri:0, instance:maven.demo.Stock_demo@7c16905e]" name="f" duration-ms="85090" started-at="2021-09-23T10:16:26Z" finished-at="2021-09-23T10:17:51Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:maven.demo.Stock_demo@7c16905e]" name="f" duration-ms="55599" started-at="2021-10-11T10:43:50Z" finished-at="2021-10-11T10:44:46Z">
           <reporter-output>
             <line>
               <![CDATA[password enteredbom1234]]>

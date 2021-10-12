@@ -23,7 +23,7 @@ public class browser_management {
 			DesiredCapabilities capabilities = DesiredCapabilities.firefox();
 			capabilities. setCapability("marionette",true);
 			FirefoxOptions options=new FirefoxOptions();
-			options.addArguments("--headless"); 
+			//options.addArguments("--headless"); 
 			d = new FirefoxDriver(options);
 		}
 		else if ( type.equalsIgnoreCase("CHROME"))

@@ -59,7 +59,7 @@ public class Stock_demo {
 		d.findElement(By.id("refreshBtn")).click();
 		Thread.sleep(5000);
 		d.quit();}}
-//
+
 //	public static void f2() throws InterruptedException {
 //		WebDriver d=browser_management.getdriver("FIREFOX",url);	
 //		posibolt_common_scenario obj=PageFactory.initElements(d, posibolt_common_scenario.class);
@@ -446,55 +446,58 @@ public class Stock_demo {
 //		Select list4=new Select(d.findElement(By.id("purchasePriceListId")));
 //		list4.selectByIndex(1);
 //		Thread.sleep(2000);
-//		Select list5=new Select(d.findElement(By.xpath("//body/div[@id='content']/div[@id='contentContainer']/form[@id='StockSearch']/div[1]/div[6]/select[1]")));
+//		Select list5=new Select(d.findElement(By.id("taxCategoryId")));
 //		list5.selectByIndex(0);
 //		Thread.sleep(2000);
 //		Select list6=new Select(d.findElement(By.xpath("//body/div[@id='content']/div[@id='contentContainer']/form[@id='StockSearch']/div[1]/div[7]/select[1]")));
 //		list6.selectByIndex(0);
 //		Thread.sleep(2000);
-//		d.findElement(By.xpath("//body/div[@id='content']/div[@id='contentContainer']/form[@id='StockSearch']/div[1]/div[8]/div[1]/button[1]/span[1]")).click();
-//		Thread.sleep(3000);
-//		WebElement y=d.findElement(By.xpath("//body/div[@id='content']/div[@id='contentContainer']/form[@id='StockSearch']/div[1]/div[8]/div[1]/div[1]/div[1]/input[1]"));
-//		y.sendKeys("o");
-//		Thread.sleep(2000);
-//		y.sendKeys(Keys.ENTER); 
+//		Select list10=new Select(d.findElement(By.xpath("//body/div[@id='content']/div[@id='contentContainer']/form[@id='StockSearch']/div[1]/div[8]/select[1]")));
+//		list10.selectByIndex(0);
 //		Thread.sleep(2000);
 //		Select list8=new Select(d.findElement(By.id("locatorId")));
 //		list8.selectByIndex(0);
 //		Thread.sleep(2000);	
 //		Select list7=new Select(d.findElement(By.id("uomCriteria")));
 //		list7.selectByIndex(0);
+//		Thread.sleep(2000);		
+//		Select list12=new Select(d.findElement(By.id("qtyFilter")));
+//		list12.selectByIndex(0);
 //		Thread.sleep(2000);
-//		d.findElement(By.xpath("//body/div[@id='content']/div[@id='contentContainer']/form[@id='StockSearch']/div[1]/div[14]/div[1]/button[1]/span[1]")).click();
-//		WebElement u=d.findElement(By.xpath("//body/div[@id='content']/div[@id='contentContainer']/form[@id='StockSearch']/div[1]/div[14]/div[1]/div[1]/div[1]/input[1]"));
+//		
+//		d.findElement(By.xpath("//body/div[@id='content']/div[@id='contentContainer']/form[@id='StockSearch']/div[1]/div[15]/div[1]/button[1]/span[1]")).click();
+//		WebElement u=d.findElement(By.xpath("//body/div[@id='content']/div[@id='contentContainer']/form[@id='StockSearch']/div[1]/div[15]/div[1]/div[1]/div[1]/input[1]"));
 //		u.sendKeys("hp");
 //		Thread.sleep(2000);
 //		u.sendKeys(Keys.ENTER);
 //		Thread.sleep(2000);
-//		Select list11=new Select(d.findElement(By.xpath("//body/div[@id='content']/div[@id='contentContainer']/form[@id='StockSearch']/div[1]/div[15]/select[1]")));
-//		list11.selectByIndex(0);
+//		d.findElement(By.xpath("//body/div[@id='content']/div[@id='contentContainer']/form[@id='StockSearch']/div[1]/div[10]/div[1]/button[1]/span[1]")).click();	
+//		WebElement r=d.findElement(By.xpath("//body/div[@id='content']/div[@id='contentContainer']/form[@id='StockSearch']/div[1]/div[10]/div[1]/div[1]/div[1]/input[1]"));
+//		r.sendKeys("*");
 //		Thread.sleep(2000);
-//		Select list12=new Select(d.findElement(By.id("qtyFilter")));
-//		list12.selectByIndex(0);
+//		r.sendKeys(Keys.ENTER);
+//		Thread.sleep(2000);	
+//		d.findElement(By.xpath("//body/div[@id='content']/div[@id='contentContainer']/form[@id='StockSearch']/div[1]/div[9]/div[1]/button[1]/span[1]")).click();
+//		Thread.sleep(3000);
+//		WebElement y=d.findElement(By.xpath("//body/div[@id='content']/div[@id='contentContainer']/form[@id='StockSearch']/div[1]/div[9]/div[1]/div[1]/div[1]/input[1]"));
+//		y.sendKeys("o");
 //		Thread.sleep(2000);
+//		y.sendKeys(Keys.ENTER); 
+//		Thread.sleep(2000);
+//		
+//	
 //		d.findElement(By.id("barcodeArray")).sendKeys("963");
 //		Thread.sleep(2000);
 //		d.findElement(By.id("valId")).sendKeys("13/05/2021");
 //		Thread.sleep(2000);
 //		d.findElement(By.id("stockedDate")).sendKeys("13/05/2021");
 //		Thread.sleep(2000);
-//		d.findElement(By.xpath("//body/div[@id='content']/div[@id='contentContainer']/form[@id='StockSearch']/div[1]/div[4]/div[1]/button[1]/span[1]")).click();
-//
-//		WebElement r=d.findElement(By.xpath("//body/div[@id='content']/div[@id='contentContainer']/form[@id='StockSearch']/div[1]/div[4]/div[1]/div[1]/div[1]/input[1]"));
-//		r.sendKeys("*");
-//		Thread.sleep(2000);
-//		r.sendKeys(Keys.ENTER);
-//		Thread.sleep(2000);
+//		
 //		d.findElement(By.id("quickValuation")).click();
 //		Thread.sleep(2000);
 //		d.findElement(By.id("viewCost")).click();
 //		Thread.sleep(2000);
-//		d.findElement(By.xpath("//body/div[@id='content']/div[@id='contentContainer']/form[@id='StockSearch']/div[1]/div[20]/button[1]")).click();
+//		d.findElement(By.xpath("//body/div[@id='content']/div[@id='contentContainer']/form[@id='StockSearch']/div[1]/div[21]/button[1]/i[1]")).click();
 //		Thread.sleep(5000);
 //		String url=d.getCurrentUrl();
 //		System.out.println(url);
