@@ -1,15 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 184.389 s <<< FAILURE! - in TestSuite
-maven.demo.Stock_demo.f9  Time elapsed: 100.897 s  <<< FAILURE!
-org.openqa.selenium.WebDriverException: 
-TypeError: browsingContext.currentWindowGlobal is null
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 195.123 s <<< FAILURE! - in TestSuite
+maven.demo.Stock_demo.f9  Time elapsed: 108.416 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //body/div[@id='content']/div[@id='contentContainer']/form[@id='StockSearch']/div[1]/div[20]/button[1]/span[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-T15INS2', ip: '192.168.29.245', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+System info: host: 'DESKTOP-T15INS2', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 11200, moz:profile: C:\Users\Nandu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 5880d33b-810f-4e1c-8859-e97c5be1c0ad
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 8832, moz:profile: C:\Users\Nandu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6ba12765-5690-4675-b6d3-5b56a32d7f85
 *** Element info: {Using=xpath, value=//body/div[@id='content']/div[@id='contentContainer']/form[@id='StockSearch']/div[1]/div[20]/button[1]/span[1]}
 	at maven.demo.Stock_demo.f9(Stock_demo.java:417)
 

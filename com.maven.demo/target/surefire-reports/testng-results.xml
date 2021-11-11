@@ -14,12 +14,12 @@
       <![CDATA[click login]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-11-10T12:02:58Z" name="Suite" finished-at="2021-11-10T12:06:01Z" duration-ms="183044">
+  <suite started-at="2021-11-11T05:43:09Z" name="Suite" finished-at="2021-11-11T05:46:22Z" duration-ms="193414">
     <groups>
     </groups>
-    <test started-at="2021-11-10T12:02:58Z" name="Test" finished-at="2021-11-10T12:06:01Z" duration-ms="183044">
+    <test started-at="2021-11-11T05:43:09Z" name="Test" finished-at="2021-11-11T05:46:22Z" duration-ms="193414">
       <class name="maven.demo.Stock_demo">
-        <test-method signature="f10()[pri:0, instance:maven.demo.Stock_demo@768fc0f2]" started-at="2021-11-10T12:02:58Z" name="f10" finished-at="2021-11-10T12:04:20Z" duration-ms="82233" status="PASS">
+        <test-method signature="f10()[pri:0, instance:maven.demo.Stock_demo@768fc0f2]" started-at="2021-11-11T05:43:09Z" name="f10" finished-at="2021-11-11T05:44:34Z" duration-ms="84955" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[password enteredbom1234]]>
@@ -29,24 +29,26 @@
             </line>
           </reporter-output>
         </test-method> <!-- f10 -->
-        <test-method signature="f9()[pri:0, instance:maven.demo.Stock_demo@768fc0f2]" started-at="2021-11-10T12:04:20Z" name="f9" finished-at="2021-11-10T12:06:01Z" duration-ms="100768" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
+        <test-method signature="f9()[pri:0, instance:maven.demo.Stock_demo@768fc0f2]" started-at="2021-11-11T05:44:34Z" name="f9" finished-at="2021-11-11T05:46:22Z" duration-ms="108418" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[TypeError: browsingContext.currentWindowGlobal is null
+              <![CDATA[Unable to locate element: //body/div[@id='content']/div[@id='contentContainer']/form[@id='StockSearch']/div[1]/div[20]/button[1]/span[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-T15INS2', ip: '192.168.29.245', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+System info: host: 'DESKTOP-T15INS2', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 11200, moz:profile: C:\Users\Nandu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 5880d33b-810f-4e1c-8859-e97c5be1c0ad
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 8832, moz:profile: C:\Users\Nandu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6ba12765-5690-4675-b6d3-5b56a32d7f85
 *** Element info: {Using=xpath, value=//body/div[@id='content']/div[@id='contentContainer']/form[@id='StockSearch']/div[1]/div[20]/button[1]/span[1]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: browsingContext.currentWindowGlobal is null
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //body/div[@id='content']/div[@id='contentContainer']/form[@id='StockSearch']/div[1]/div[20]/button[1]/span[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-T15INS2', ip: '192.168.29.245', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+System info: host: 'DESKTOP-T15INS2', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 11200, moz:profile: C:\Users\Nandu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 5880d33b-810f-4e1c-8859-e97c5be1c0ad
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 8832, moz:profile: C:\Users\Nandu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6ba12765-5690-4675-b6d3-5b56a32d7f85
 *** Element info: {Using=xpath, value=//body/div[@id='content']/div[@id='contentContainer']/form[@id='StockSearch']/div[1]/div[20]/button[1]/span[1]}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
@@ -95,7 +97,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
             <line>
               <![CDATA[password enteredbom1234]]>
