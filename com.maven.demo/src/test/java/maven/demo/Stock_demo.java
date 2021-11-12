@@ -19,46 +19,46 @@ import utils.browser_management;
 public class Stock_demo {
 	static String url="http://testclt70.posibolt.org/d/posi";
 	static String password="bom1234";
-//	@Test
-//	public void f() throws InterruptedException {
-//		WebDriver d=browser_management.getdriver("FIREFOX",url);	
-//		posibolt_common_scenario obj=PageFactory.initElements(d, posibolt_common_scenario.class);
-//		obj.setpincodefield(password);
-//		Thread.sleep(3000);
-//		obj.setpin();
-//		Thread.sleep(4000);
-//		d.findElement(By.id("mainMenuItem4")).click();
-//		Thread.sleep(4000);
-//		d.findElement(By.id("mainMenuItem110")).click();
-//		Thread.sleep(6000);
-//		Select list1=new Select(d.findElement(By.id("filterByList"))); 
-//		list1.selectByIndex(0);
-//		Thread.sleep(2000);
-//		Select list2=new Select(d.findElement(By.id("orgId")));
-//		list2.selectByIndex(0);
-//		Thread.sleep(2000);
-//		Select list3=new Select(d.findElement(By.id("productCategoryId")));
-//		list3.selectByIndex(0);
-//		Thread.sleep(2000);
-//		Select list4=new Select(d.findElement(By.id("warehouseId")));
-//		list4.selectByIndex(0);
-//		Thread.sleep(2000);
-//		Select list5=new Select(d.findElement(By.id("groupById")));
-//		list5.selectByIndex(0);
-//		Thread.sleep(2000);
-//		Select list6=new Select(d.findElement(By.id("attributeId")));
-//		list6.selectByIndex(0);
-//		Thread.sleep(2000);
-//		Select list7=new Select(d.findElement(By.id("attribute2Id")));
-//		list7.selectByIndex(0);
-//		Thread.sleep(2000);
-//		d.findElement(By.id("barcode")).sendKeys("963");
-//		Thread.sleep(2000);
-//		d.findElement(By.id("showWarehouse")).click();
-//		Thread.sleep(2000);
-//		d.findElement(By.id("refreshBtn")).click();
-//		Thread.sleep(5000);
-//		d.quit();}}
+	@Test
+	public void f() throws InterruptedException {
+		WebDriver d=browser_management.getdriver("FIREFOX",url);	
+		posibolt_common_scenario obj=PageFactory.initElements(d, posibolt_common_scenario.class);
+		obj.setpincodefield(password);
+		Thread.sleep(3000);
+		obj.setpin();
+		Thread.sleep(4000);
+		d.findElement(By.id("mainMenuItem4")).click();
+		Thread.sleep(4000);
+		d.findElement(By.id("mainMenuItem110")).click();
+		Thread.sleep(6000);
+		Select list1=new Select(d.findElement(By.id("filterByList"))); 
+		list1.selectByIndex(0);
+		Thread.sleep(2000);
+		Select list2=new Select(d.findElement(By.id("orgId")));
+		list2.selectByIndex(0);
+		Thread.sleep(2000);
+		Select list3=new Select(d.findElement(By.id("productCategoryId")));
+		list3.selectByIndex(0);
+		Thread.sleep(2000);
+		Select list4=new Select(d.findElement(By.id("warehouseId")));
+		list4.selectByIndex(0);
+		Thread.sleep(2000);
+		Select list5=new Select(d.findElement(By.id("groupById")));
+		list5.selectByIndex(0);
+		Thread.sleep(2000);
+		Select list6=new Select(d.findElement(By.id("attributeId")));
+		list6.selectByIndex(0);
+		Thread.sleep(2000);
+		Select list7=new Select(d.findElement(By.id("attribute2Id")));
+		list7.selectByIndex(0);
+		Thread.sleep(2000);
+		d.findElement(By.id("barcode")).sendKeys("963");
+		Thread.sleep(2000);
+		d.findElement(By.id("showWarehouse")).click();
+		Thread.sleep(2000);
+		d.findElement(By.id("refreshBtn")).click();
+		Thread.sleep(5000);
+		d.quit();}
 
 //	public static void f2() throws InterruptedException {
 //		WebDriver d=browser_management.getdriver("FIREFOX",url);	
